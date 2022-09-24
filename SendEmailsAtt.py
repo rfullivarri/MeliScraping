@@ -10,10 +10,10 @@ from email.mime.base import MIMEBase
 
 
 
-destinatario = 'rfullivarri22@gmail.com'
+destinatario = 'yourmail@gmail.com'
 asunto = 'Prueba con adjunto'
 cuerpo = 'si anda esto es una belleza'
-archivo = "C:\\Users\\ramferna\\OneDrive - Anheuser-Busch InBev\Ramiro Fernandez de Ullivarri\\31. Scrapping\MELIScrapingDemacbook pro m1.xlsx" 
+archivo = "C:\\Users\\ramferna\\ev\Ramiro Fernandez de Ullivarri\\31. Scrapping\MELIScrapingDemacbook pro m1.xlsx" 
 
 
 def SendEmailsAtt(destinatario,asunto,cuerpo,archivo):
@@ -22,7 +22,7 @@ def SendEmailsAtt(destinatario,asunto,cuerpo,archivo):
  puerto= 465
  contexto= ssl.create_default_context()
  email_sender = 'rfullivarri22@gmail.com'
- password = 'spmrprgtfybwwajf'
+ password = 'yourpassword'
  
  #INFO DE DESTINATARIO, REMITENTE, ASUNTO
  msg = MIMEMultipart()
